@@ -1,0 +1,7 @@
+#comments {
+    visibility: hidden !important;
+}
+
+.hide-count {
+    display: none;
+}
