@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Hide YT Comments",
+    "version": "0.0.1",
+    "description": "Don't wanna see this brainless sh*t anymore",
+    "short_name": "HYTC",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "css": [
+                "hideComments.css"
+            ]
+        }
+    ]
+}
